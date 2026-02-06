@@ -1,0 +1,51 @@
+# ========================================
+# Site Settings
+# ========================================
+
+title: "Haozhou Zhou"
+description: "Explainable AI for Predictive Maintenance & Edge Deployment"
+author: "Haozhou Zhou"
+email: "zhou.haoz@northeastern.edu"
+url: "https://haozhou98.github.io"
+baseurl: ""  # Leave empty for username.github.io
+
+# ========================================
+# Theme
+# ========================================
+
+theme: minima  # The 'minima' theme handles most styling
+
+# ========================================
+# Plugins
+# ========================================
+
+plugins:
+  - jekyll-feed       # Generates RSS feed
+  - jekyll-seo-tag    # Auto-adds SEO meta tags
+
+# ========================================
+# Build Settings
+# ========================================
+
+# Files/folders to EXCLUDE from the build
+exclude:
+  - Gemfile           # Ruby dependency file
+  - Gemfile.lock      # Lock file
+  - README.md         # GitHub readme
+  - WEBPAGE_DEV_*.md  # Development docs (not part of site)
+  - .gitignore        # Git config
+
+# Files to INCLUDE even if they start with underscore
+include: []
+
+# ========================================
+# Markdown Processor
+# ========================================
+
+markdown: kramdown
+
+# ========================================
+# Output Settings
+# ========================================
+
+permalink: /:title/  # URL structure for posts (optional)
