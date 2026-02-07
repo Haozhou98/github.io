@@ -2,7 +2,7 @@
 # Site Settings
 # ========================================
 
-title: "Haozhou Zhou"
+title: "Haozhou (Hal) Zhou"
 description: "Explainable AI for Predictive Maintenance & Edge Deployment"
 author: "Haozhou Zhou"
 email: "zhou.haoz@northeastern.edu"
@@ -33,6 +33,7 @@ exclude:
   - Gemfile.lock      # Lock file
   - README.md         # GitHub readme
   - WEBPAGE_DEV_*.md  # Development docs (not part of site)
+  - HAOZHOU98-*.md    # Build prompt (not part of site)
   - .gitignore        # Git config
 
 # Files to INCLUDE even if they start with underscore
