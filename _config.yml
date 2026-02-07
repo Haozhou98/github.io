@@ -7,7 +7,7 @@ description: "Explainable AI for Predictive Maintenance & Edge Deployment"
 author: "Haozhou Zhou"
 email: "zhou.haoz@northeastern.edu"
 url: "https://haozhou98.github.io"
-baseurl: ""  # Leave empty for username.github.io
+baseurl: "/github.io"  # Repo name is "github.io", not "Haozhou98.github.io"
 
 # ========================================
 # Theme
